@@ -1,0 +1,79 @@
+CI
+
+Resumen de instancia
+ID de la instancia
+ i-0b9ceccca566e0b8b (CI)
+Tipo de nombre de anfitrión
+Nombre de IP:
+ ip-172-31-80-47.ec2.internal
+Dirección IP asignada automáticamente
+ 52.91.19.171 [IP pública]
+irección IPv4 pública
+ 52.91.19.171
+Nombre DNS de IP privada (solo IPv4)
+ ip-172-31-80-47.ec2.internal
+Tipo de instancia
+ t2.micro
+ID de VPC
+ vpc-00af95f0b11c5d9ce 
+ID de subred
+ subnet-022732bbf90ffed36
+Direcciones IPv4 privadas
+ 172.31.80.47
+DNS de IPv4 pública
+ ec2-52-91-19-171.compute-1.amazonaws.com
+
+Detalles de la instancia
+Plataforma
+ Amazon Linux (inferido)
+Detalles de la plataforma
+ Linux/UNIX
+ID de AMI
+ ami-0b5eea76982371e91
+Nombre de AMI
+ amzn2-ami-kernel-5.10-hvm-2.0.20221210.1-x86_64-gp2
+Hora de lanzamiento
+ Tue Jan 03 2023 22:27:12 GMT-0400 (Bolivia Time)
+Ubicación de AMI
+ amazon/amzn2-ami-kernel-5.10-hvm-2.0.20221210.1-x86_64-gp2
+
+Host y grupo de ubicación
+Tipo de virtualización
+ hvm
+Número de CPU virtuales
+ 1
+
+Detalles de seguridad
+Grupos de seguridad
+ sg-0beb708b83fc8a72a (launch-wizard-1)
+ID del propietario
+ 543747361801
+Reglas de entrada
+	Intervalo de puertos
+	 22
+	Protocolo
+	 TCP
+	Origen
+	 181.177.145.97/32
+Reglas de salida
+	Intervalo de puertos
+	 TODO
+	Protocolo
+	 TODO
+	Destno
+	 0.0.0.0/0
+
+Detalles de redes
+Zona de disponibilidad
+ us-east-1b
+
+Almacenamiento
+Detalles del dispositivo raíz
+Nombre del dispositivo raíz
+ /dev/xvda
+Tipo de dispositivo raíz
+ EBS
+ID de volumen|Nombre del dispositivo|Tamaño del volumen (GiB)|Cifrado|Eliminar cuando termine
+--|--|--|--|--|
+vol-01c385a5c5d8dd09e|/dev/xvda|8|No|Sí
+vol-0f414e3380da3e53e|/dev/sdb|30|No|No

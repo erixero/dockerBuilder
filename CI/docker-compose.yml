@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  jenkins:
+    container_name: jenkins
+    hostname: jenkins
+    image: jenkins/jenkins:lts # Oficial Image
+    ports:
+      - "8080:8080" # Web Port
+      - "50000:50000" # Agent Port
+    volumes: # Backup
+      - jenkins_volume:/var/jenkins_home
+volumes:
+  jenkins_volume:
